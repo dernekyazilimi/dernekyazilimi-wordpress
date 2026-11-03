@@ -171,6 +171,11 @@ class Dernekyazilimi_Forms {
 					<input id="<?php echo esc_attr( $id ); ?>" name="kod" maxlength="36" autocomplete="off" spellcheck="false" placeholder="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX" required>
 					<p class="dy-hint"><?php esc_html_e( 'Enter the code printed at the bottom of the letter.', 'dernekyazilimi' ); ?></p>
 				</div>
+				<div class="dy-field">
+					<label for="<?php echo esc_attr( $id ); ?>-number"><?php esc_html_e( 'Document number', 'dernekyazilimi' ); ?></label>
+					<input id="<?php echo esc_attr( $id ); ?>-number" name="sayi" maxlength="120" autocomplete="off" spellcheck="false" required>
+					<p class="dy-hint"><?php esc_html_e( 'Enter the number written on the letter next to "Sayı".', 'dernekyazilimi' ); ?></p>
+				</div>
 				<?php if ( ! empty( $config['correspondence']['turnstile_site_key'] ) ) : ?>
 					<?php wp_enqueue_script( 'dernekyazilimi-turnstile' ); ?>
 					<div class="dy-field">

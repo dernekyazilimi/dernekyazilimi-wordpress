@@ -55,7 +55,7 @@ Bir form portalda kapalıysa ziyaretçi kısa bir bilgi görür. Portala ulaşı
 2. Sayfaya **Belge doğrulama** bloğunu veya `[dernekyazilimi_verify]` kısa kodunu ekleyin.
 3. Portalda **Yazışma ayarları → WordPress belge doğrulama sayfası** alanına bu sayfanın tam HTTPS adresini yazın.
 
-Yeni asıl yazıların QR kodu ve doğrulama bağlantısı bu sayfayı açar. Daha önce hazırlanmış veya imzalanmış PDF’ler değişmez; ek belgelere QR eklenmez. Ziyaretçi kodu elle yazabilir; QR ile gelirse sorgu otomatik yapılır. Sonuçta yeşil kalkan (iptal edilmişse kırmızı), yazı numarası, tarih ve konu gösterilir; PDF açılabilir, indirilebilir, sayfada önizlenir; diğer ekler ile imzalı özgün dosyalar ayrıca alınabilir. Portalda Cloudflare Turnstile açıksa bağış formundaki insan doğrulaması burada da çıkar; QR ile gelen sorgu doğrulama bitince otomatik başlar. Portalda Yazışmalar modülü ve eklentinin mevcut API bağlantısı etkin olmalıdır.
+Yeni asıl yazıların QR kodu ve doğrulama bağlantısı bu sayfayı açar. Daha önce hazırlanmış veya imzalanmış PDF’ler değişmez; ek belgelere QR eklenmez. Ziyaretçi kodu elle yazarsa yazının sayısını da girer ve sayı belgeyle eşleşmelidir; QR ile gelirse yalnız kodla sorgu otomatik yapılır. Sonuçta yeşil kalkan (iptal edilmişse kırmızı), yazı numarası, tarih ve konu gösterilir; PDF açılabilir, indirilebilir, sayfada önizlenir; diğer ekler ile imzalı özgün dosyalar ayrıca alınabilir. Portalda Cloudflare Turnstile açıksa bağış formundaki insan doğrulaması burada da çıkar; QR ile gelen sorgu doğrulama bitince otomatik başlar. Portalda Yazışmalar modülü ve eklentinin mevcut API bağlantısı etkin olmalıdır.
 
 ## Portala giden veri
 

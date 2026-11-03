@@ -547,6 +547,7 @@
 			form.hidden = false;
 			resetTurnstile( widget );
 			input.value = '';
+			if ( form.elements.sayi ) { form.elements.sayi.value = ''; }
 			input.focus();
 		} );
 		var code = new URLSearchParams( window.location.search ).get( 'kod' );

@@ -3,7 +3,7 @@
  * Plugin Name:       Dernek Yazılımı
  * Plugin URI:        https://github.com/lkdtr/dernekyazilimi-wordpress
  * Description:       Document verification, donation, volunteer and membership forms for associations using the Dernek Yazılımı portal. Forms are drawn by your theme; payment and the rest of the application continue in a frame of the portal.
- * Version:           1.0.11
+ * Version:           1.0.12
  * Requires at least: 6.2
  * Requires PHP:      7.4
  * Author:            Linux Kullanıcıları Derneği
@@ -18,7 +18,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'DERNEKYAZILIMI_VERSION', '1.0.11' );
+define( 'DERNEKYAZILIMI_VERSION', '1.0.12' );
 define( 'DERNEKYAZILIMI_FILE', __FILE__ );
 define( 'DERNEKYAZILIMI_DIR', plugin_dir_path( __FILE__ ) );
 define( 'DERNEKYAZILIMI_URL', plugin_dir_url( __FILE__ ) );

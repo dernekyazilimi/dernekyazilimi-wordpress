@@ -310,8 +310,8 @@ msgstr "Konu"
 msgid "Enter a valid document verification code."
 msgstr "Geçerli bir belge doğrulama kodu girin."
 
-msgid "No document was found with this code."
-msgstr "Bu kodla kayıtlı bir belge bulunamadı."
+msgid "No document was found with this code and number."
+msgstr "Bu doğrulama kodu ve sayıyla kayıtlı bir belge bulunamadı."
 
 msgid "Open original PDF"
 msgstr "Asıl PDF’yi aç"
@@ -324,6 +324,9 @@ msgstr "Asıl yazı ve PDF ekleri"
 
 msgid "Enter the code printed at the bottom of the letter."
 msgstr "Yazının altındaki belge doğrulama kodunu yazın."
+
+msgid "Enter the number written on the letter next to \"Sayı\"."
+msgstr "Yazının üst kısmında \"Sayı\" satırında yazan numarayı girin."
 
 msgid "Document verified"
 msgstr "Belge doğrulandı"

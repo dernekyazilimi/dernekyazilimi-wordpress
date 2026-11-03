@@ -310,7 +310,7 @@ msgstr ""
 msgid "Enter a valid document verification code."
 msgstr ""
 
-msgid "No document was found with this code."
+msgid "No document was found with this code and number."
 msgstr ""
 
 msgid "Open original PDF"
@@ -323,6 +323,9 @@ msgid "Letter and PDF attachments"
 msgstr ""
 
 msgid "Enter the code printed at the bottom of the letter."
+msgstr ""
+
+msgid "Enter the number written on the letter next to \"Sayı\"."
 msgstr ""
 
 msgid "Document verified"

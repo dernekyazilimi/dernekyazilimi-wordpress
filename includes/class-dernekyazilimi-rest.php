@@ -93,7 +93,12 @@ class Dernekyazilimi_Rest {
 			return new WP_REST_Response( array( 'message' => __( 'Enter a valid document verification code.', 'dernekyazilimi' ) ), 422 );
 		}
 
-		$path      = 'documents/verify?kod=' . rawurlencode( strtoupper( trim( $code ) ) );
+		$path = 'documents/verify?kod=' . rawurlencode( strtoupper( trim( $code ) ) );
+		// Typed by hand, the code comes with the letter's number; a QR link carries the code alone.
+		$number = mb_substr( sanitize_text_field( (string) $request->get_param( 'sayi' ) ), 0, 120 );
+		if ( '' !== $number ) {
+			$path .= '&sayi=' . rawurlencode( $number );
+		}
 		$turnstile = substr( sanitize_text_field( (string) $request->get_param( 'turnstile' ) ), 0, 2048 );
 		if ( '' !== $turnstile ) {
 			$path .= '&turnstile=' . rawurlencode( $turnstile );
@@ -250,7 +255,7 @@ class Dernekyazilimi_Rest {
 		}
 
 		if ( 404 === $status && 0 === strpos( $path, 'documents/verify?' ) ) {
-			return new WP_REST_Response( array( 'message' => __( 'No document was found with this code.', 'dernekyazilimi' ) ), 404 );
+			return new WP_REST_Response( array( 'message' => __( 'No document was found with this code and number.', 'dernekyazilimi' ) ), 404 );
 		}
 
 		if ( 422 === $status || 429 === $status ) {
