@@ -20,6 +20,8 @@
 - WordPress 6.2+, PHP 7.4+
 - HTTPS üzerinden yayınlanan, güncel bir Dernek Yazılımı portalı
 
+Yazılım ücretsizdir. Portalın sizin için kurulmasını isterseniz ücretli kurulum hizmeti alabilirsiniz: [kalehost.net/dernek-yazilimi](https://www.kalehost.net/dernek-yazilimi)
+
 ## Kurulum
 
 1. Eklentiyi kurup etkinleştirin (zip'i **Eklentiler → Yeni ekle → Eklenti yükle** ile yükleyin).

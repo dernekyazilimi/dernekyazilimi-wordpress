@@ -216,6 +216,14 @@ msgstr ""
 msgid "Address of your association's Dernek Yazılımı portal."
 msgstr ""
 
+#: includes/class-dernekyazilimi-settings.php:111
+msgid "No portal yet? The software is free; if you want it set up for you, a paid installation service is available."
+msgstr ""
+
+#: includes/class-dernekyazilimi-settings.php:113
+msgid "Installation service"
+msgstr ""
+
 msgid "Saved — leave empty to keep it"
 msgstr ""
 

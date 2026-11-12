@@ -42,6 +42,8 @@ You need your own Dernek Yazılımı portal, served over HTTPS. In the portal's 
 
 Then enter the portal address and the key under Settings → Dernek Yazılımı in WordPress.
 
+The software is free. If you would rather have the portal installed for you, a paid installation service is available: https://www.kalehost.net/dernek-yazilimi
+
 == External services ==
 
 Document verification sends the entered document code to your own portal through the plugin's server-side API connection. Document metadata and public file links are returned to visitors who know the verification code. The letter and attachments are available through verification-code links. Create a page containing `[dernekyazilimi_verify]` and set its HTTPS address in the portal's correspondence settings to use it in new QR links.
@@ -77,6 +79,10 @@ Source of the plugin: https://github.com/dernekyazilimi/dernekyazilimi-wordpress
 The address and the key can also be set in `wp-config.php` with the constants `DERNEKYAZILIMI_PORTAL_URL` and `DERNEKYAZILIMI_API_KEY`.
 
 == Frequently Asked Questions ==
+
+= Can someone install the portal for us? =
+
+Yes. Dernek Yazılımı is free and you can install it yourself. For a paid installation service see https://www.kalehost.net/dernek-yazilimi
 
 = A form does not appear on the page =
 

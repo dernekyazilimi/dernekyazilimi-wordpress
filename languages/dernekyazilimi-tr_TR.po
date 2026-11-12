@@ -216,6 +216,14 @@ msgstr "wp-config.php içinde tanımlı."
 msgid "Address of your association's Dernek Yazılımı portal."
 msgstr "Derneğinizin Dernek Yazılımı portalının adresi."
 
+#: includes/class-dernekyazilimi-settings.php:111
+msgid "No portal yet? The software is free; if you want it set up for you, a paid installation service is available."
+msgstr "Portalınız yok mu? Yazılım ücretsizdir; sizin için kurulmasını isterseniz ücretli kurulum hizmeti alabilirsiniz."
+
+#: includes/class-dernekyazilimi-settings.php:113
+msgid "Installation service"
+msgstr "Kurulum hizmeti"
+
 msgid "Saved — leave empty to keep it"
 msgstr "Kayıtlı — değiştirmemek için boş bırakın"
 
