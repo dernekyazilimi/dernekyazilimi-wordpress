@@ -66,6 +66,13 @@ Eklenti yalnız derneğin kendi portalına bağlanır. Hangi verinin ne zaman g�
 ## Geliştirme
 
 - Derleme adımı yok: düz PHP, JS ve CSS.
+- Testler PHPUnit ve WordPress'in test kitaplığıyla, [wp-env](https://www.npmjs.com/package/@wordpress/env) içinde (Docker gerekir) çalışır. Portal taklit edilir; testler ağa çıkmaz:
+  ```bash
+  composer install && npm install
+  npm run env:start
+  npm test
+  ```
+  Eklenti klasörünün adı `dernekyazilimi-wordpress` olmalıdır (`npm test` bu yolu kullanır). Her PR'da GitHub Actions aynı testleri çalıştırır.
 - Kaynak metinler İngilizcedir; Türkçe çeviri `languages/dernekyazilimi-tr_TR.po` dosyasındadır. Değişince derleyin:
   ```bash
   msgfmt -o languages/dernekyazilimi-tr_TR.mo languages/dernekyazilimi-tr_TR.po
