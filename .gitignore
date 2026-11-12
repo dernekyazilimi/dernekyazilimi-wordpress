@@ -1,2 +1,5 @@
 *.zip
 .DS_Store
+vendor/
+node_modules/
+.phpunit.result.cache
