@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dernek Yazılımı 1.0.9\n"
-"Report-Msgid-Bugs-To: https://github.com/lkdtr/dernekyazilimi-wordpress/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/dernekyazilimi/dernekyazilimi-wordpress/issues\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -215,6 +215,14 @@ msgstr "wp-config.php içinde tanımlı."
 
 msgid "Address of your association's Dernek Yazılımı portal."
 msgstr "Derneğinizin Dernek Yazılımı portalının adresi."
+
+#: includes/class-dernekyazilimi-settings.php:111
+msgid "No portal yet? The software is free; if you want it set up for you, a paid installation service is available."
+msgstr "Portalınız yok mu? Yazılım ücretsizdir; sizin için kurulmasını isterseniz ücretli kurulum hizmeti alabilirsiniz."
+
+#: includes/class-dernekyazilimi-settings.php:113
+msgid "Installation service"
+msgstr "Kurulum hizmeti"
 
 msgid "Saved — leave empty to keep it"
 msgstr "Kayıtlı — değiştirmemek için boş bırakın"

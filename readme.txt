@@ -1,5 +1,5 @@
 === Dernek Yazılımı ===
-Contributors: lkdtr
+Contributors: bmericc
 Tags: donation, membership, volunteer, association, nonprofit
 Requires at least: 6.2
 Tested up to: 7.1
@@ -12,7 +12,7 @@ Donation, volunteer and membership forms for associations that run the open sour
 
 == Description ==
 
-[Dernek Yazılımı](https://github.com/lkdtr/dernekyazilimi) is an open source portal for associations (members, dues, donations, volunteers). This plugin puts the portal's public forms on your WordPress site:
+[Dernek Yazılımı](https://github.com/dernekyazilimi/dernekyazilimi) is an open source portal for associations (members, dues, donations, volunteers). This plugin puts the portal's public forms on your WordPress site:
 
 * **Donation** – the donor fills in the form on your site; the card payment page of your payment provider, or the bank accounts for a transfer, follow in a frame.
 * **Volunteer registration** – name, email and a mobile phone verified by SMS. The person sets a password from the email the portal sends; no password is typed on your site.
@@ -42,6 +42,8 @@ You need your own Dernek Yazılımı portal, served over HTTPS. In the portal's 
 
 Then enter the portal address and the key under Settings → Dernek Yazılımı in WordPress.
 
+The software is free. If you would rather have the portal installed for you, a paid installation service is available: https://www.kalehost.net/dernek-yazilimi
+
 == External services ==
 
 Document verification sends the entered document code to your own portal through the plugin's server-side API connection. Document metadata and public file links are returned to visitors who know the verification code. The letter and attachments are available through verification-code links. Create a page containing `[dernekyazilimi_verify]` and set its HTTPS address in the portal's correspondence settings to use it in new QR links.
@@ -65,7 +67,7 @@ With each of these the visitor's IP address and browser name are passed on, so t
 
 After a form is submitted, the visitor's browser loads a page of the portal in a frame. For a card donation that frame shows the payment page of the payment provider configured in your portal (for example iyzico – [terms](https://www.iyzico.com/en/legal/terms-of-use), [privacy policy](https://www.iyzico.com/en/privacy-policy)); card details are entered there and never reach your WordPress site.
 
-Source of the plugin: https://github.com/lkdtr/dernekyazilimi-wordpress – source of the portal: https://github.com/lkdtr/dernekyazilimi
+Source of the plugin: https://github.com/dernekyazilimi/dernekyazilimi-wordpress – source of the portal: https://github.com/dernekyazilimi/dernekyazilimi
 
 == Installation ==
 
@@ -77,6 +79,10 @@ Source of the plugin: https://github.com/lkdtr/dernekyazilimi-wordpress – sour
 The address and the key can also be set in `wp-config.php` with the constants `DERNEKYAZILIMI_PORTAL_URL` and `DERNEKYAZILIMI_API_KEY`.
 
 == Frequently Asked Questions ==
+
+= Can someone install the portal for us? =
+
+Yes. Dernek Yazılımı is free and you can install it yourself. For a paid installation service see https://www.kalehost.net/dernek-yazilimi
 
 = A form does not appear on the page =
 

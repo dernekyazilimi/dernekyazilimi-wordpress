@@ -106,6 +106,12 @@ class Dernekyazilimi_Settings {
 			esc_attr( $this->client->portal_url() )
 		);
 		echo '<p class="description">' . esc_html__( 'Address of your association\'s Dernek Yazılımı portal.', 'dernekyazilimi' ) . '</p>';
+		printf(
+			'<p class="description">%1$s <a href="%2$s" target="_blank" rel="noopener">%3$s</a></p>',
+			esc_html__( 'No portal yet? The software is free; if you want it set up for you, a paid installation service is available.', 'dernekyazilimi' ),
+			esc_url( 'https://www.kalehost.net/dernek-yazilimi' ),
+			esc_html__( 'Installation service', 'dernekyazilimi' )
+		);
 	}
 
 	/**
